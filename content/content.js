@@ -87,6 +87,7 @@ var filename = () => {
 }
 
 var save = (image) => {
+  // TODO: Upload image to server.. 
   var link = document.createElement('a')
   link.download = filename()
   link.href = image
